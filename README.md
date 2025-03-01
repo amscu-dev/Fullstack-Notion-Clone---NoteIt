@@ -156,3 +156,7 @@ const onCreate = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
 ### 3. Recursivitatea și Imbricarea Documentelor
 
 Componenta Item este utilizată într-un sistem care permite gestionarea documentelor într-o structură ierarhică. Prop-ul level este folosit pentru a controla nivelul de indentare a documentelor în listă. Dacă un document are subdocumente, acestea sunt gestionate recursiv prin aceeași componentă Item, creând astfel o structură ierarhică.
+
+### 4. You can use a working version of this project :
+
+https://fullstack-notion-clone-note-it.vercel.app/
