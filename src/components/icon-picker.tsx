@@ -2,7 +2,6 @@
 
 import data from "@emoji-mart/data";
 import Picker from "@emoji-mart/react";
-
 import {
   Popover,
   PopoverContent,
@@ -15,6 +14,14 @@ interface IconPickerProps {
   children: React.ReactNode;
   asChild?: boolean;
 }
+interface Emoji {
+  id: string;
+  name: string;
+  shortcodes: string;
+  unified: string;
+  native: string;
+}
+
 function IconPicker({ onChange, asChild, children }: IconPickerProps) {
   const { resolvedTheme } = useTheme();
 
@@ -25,7 +32,7 @@ function IconPicker({ onChange, asChild, children }: IconPickerProps) {
         <Picker
           data={data}
           theme={resolvedTheme}
-          onEmojiSelect={(data) => onChange(data.native)}
+          onEmojiSelect={(data: Emoji) => onChange(data.native)}
         />
       </PopoverContent>
     </Popover>

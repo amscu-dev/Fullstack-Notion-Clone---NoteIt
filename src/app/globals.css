@@ -126,3 +126,12 @@ body,
 .cl-cardBox {
   max-height: 600px !important;
 }
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
