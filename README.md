@@ -1,5 +1,9 @@
 # Fullstack Notion Clone - NoteIt
 
+**Puteți încerca o versiune complet funcțională a acestei aplicații :** https://fullstack-notion-clone-note-it.vercel.app/
+
+**Prezentarea video a proiectului :** https://www.loom.com/share/874d60485af84096987675ac4bd5e790?sid=2f3da192-5ad1-4305-ac93-3c83c4900fc1
+
 ## Descriere
 
 Acest proiect reprezintă o clonă a aplicației Notion, un instrument de productivitate folosit pentru organizarea informațiilor. Aplicația include funcționalități avansate pentru gestionarea notițelor, documentelor, și posibilitatea de a publica documente online. Este construită folosind o infrastructura bazata pe urmatoarele tehnologii: **Next.js 15**, **React 19**, **Tailwind CSS**, și integrarea autentificării prin **Clerk**.
@@ -156,7 +160,3 @@ const onCreate = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
 ### 3. Recursivitatea și Imbricarea Documentelor
 
 Componenta Item este utilizată într-un sistem care permite gestionarea documentelor într-o structură ierarhică. Prop-ul level este folosit pentru a controla nivelul de indentare a documentelor în listă. Dacă un document are subdocumente, acestea sunt gestionate recursiv prin aceeași componentă Item, creând astfel o structură ierarhică.
-
-### 4. You can use a working version of this project :
-
-https://fullstack-notion-clone-note-it.vercel.app/
