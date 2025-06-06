@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "convex": "convex dev"
+    "convex": "convex dev",
+    "test": "node --test"
   },
   "dependencies": {
     "@blocknote/core": "^0.24.1",
